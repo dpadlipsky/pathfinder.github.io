@@ -14,24 +14,6 @@ class maze{
         }
       }
     }
-    // reset(){
-    //   console.log("reset1");
-    //   for (var i = 0; i < 12; i++){
-    //     for (var j = 0; j < 12; j++){
-    //       if (document.getElementById("board").rows[i].cells[j].style.backgroundColor=="yellow"){
-    //         document.getElementById("board").rows[i].cells[j].style.backgroundColor="white";
-    //       }
-    //       if (document.getElementById("board").rows[i].cells[j].style.backgroundColor=="blue"){
-    //         this.board[i][j]=1;
-    //       } else if (document.getElementById("board").rows[i].cells[j].style.backgroundColor=="white"){
-    //         this.board[i][j]=0;
-    //       }
-    //
-    //     }
-    //   }
-    // }
-
-
 }
 function reset(){
   for (var i = 0; i < 12; i++){
